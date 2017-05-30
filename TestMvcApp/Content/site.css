@@ -1,0 +1,54 @@
+﻿body {
+    margin: 20px
+}
+body, input {
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+}
+
+table {
+    width: 300px
+}
+table, th, td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+}
+th {
+    background-color: #a8cbd8
+}
+table tr:hover td {
+    background-color: #f3d991;
+}
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.tb {
+    border: 3px outset #a8cbd8; 
+    height: 25px; 
+    width: 200px; 
+    margin-bottom: 20px;
+    padding-left: 5px
+}
+
+.btn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f36254;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f36254;
+    color: white;
+}
