@@ -1,4 +1,5 @@
 # TestAspMvcKo
+Simple test project
 
 Tech:
 1. MVC
@@ -11,6 +12,6 @@ Todo:
 2. Save data to table from 2 input fields (FirstName & LastName) by pressing Save.
 3. Save data to TXT file (in JSON format) or DB on the Controller.
 4. Update table after data have been stored. Read all list to table from JSON file.
-5. simple CSS.
+5. Simple CSS.
 6. Read data to table using AJAX. Do not reload the page.
 7. Table reads data using AJAX not MVC.
